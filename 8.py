@@ -1,0 +1,6 @@
+a=input("enter a string:")
+b=int(input("enter position to be removed:"))
+c=list(a)
+d=c.pop(b)
+e=''.join(c)
+print(e)
